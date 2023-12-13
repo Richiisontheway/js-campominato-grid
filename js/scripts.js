@@ -29,11 +29,13 @@ buttonPlay.addEventListener('click',function(){
 
             element.addEventListener('click', function(){
 
-                element.classList.add('active');
+                console.log(this);
+
+                this.classList.toggle('bg-danger');
 
                 console.log(this.innerHTML);
 
-            })
+            });
         }
 
         document.getElementById('main-container').classList.add('p-3')
