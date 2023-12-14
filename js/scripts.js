@@ -31,7 +31,7 @@ buttonPlay.addEventListener('click',function(){
 
                 console.log(this);
 
-                this.classList.toggle('bg-danger');
+                this.classList.add('active');
 
                 console.log(this.innerHTML);
 

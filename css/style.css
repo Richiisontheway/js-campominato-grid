@@ -36,4 +36,7 @@ img{
     border: solid 1px black;
 
 };
+.cell.active{
+    background-color: red;
+}
 
